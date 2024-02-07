@@ -1,0 +1,1768 @@
+20/2/2023 -- 10:55:05 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/2/2023 -- 10:55:05 - <Info> - CPUs/cores online: 8
+20/2/2023 -- 10:55:05 - <Config> - Adding interface wlp0s20f3 from config file
+20/2/2023 -- 10:55:05 - <Config> - luajit states preallocated: 128
+20/2/2023 -- 10:55:05 - <Config> - app-layer.error-policy: ignore
+20/2/2023 -- 10:55:05 - <Config> - 'default' server has 'request-body-minimal-inspect-size' set to 32677 and 'request-body-inspect-window' set to 4274 after randomization.
+20/2/2023 -- 10:55:05 - <Config> - 'default' server has 'response-body-minimal-inspect-size' set to 42167 and 'response-body-inspect-window' set to 16367 after randomization.
+20/2/2023 -- 10:55:05 - <Config> - SMB stream depth: 0
+20/2/2023 -- 10:55:05 - <Config> - SMB max-read-size: 0
+20/2/2023 -- 10:55:05 - <Config> - SMB max-write-size: 0
+20/2/2023 -- 10:55:05 - <Config> - SMB max-write-queue-size: 0
+20/2/2023 -- 10:55:05 - <Config> - SMB max-write-queue-cnt: 0
+20/2/2023 -- 10:55:05 - <Config> - SMB max-read-queue-size: 0
+20/2/2023 -- 10:55:05 - <Config> - SMB max-read-queue-cnt: 0
+20/2/2023 -- 10:55:05 - <Config> - read: max record size: 0, max queued chunks 0, max queued size 0
+20/2/2023 -- 10:55:05 - <Config> - write: max record size: 0, max queued chunks 0, max queued size 0
+20/2/2023 -- 10:55:05 - <Config> - Protocol detection and parser disabled for modbus protocol.
+20/2/2023 -- 10:55:05 - <Config> - Protocol detection and parser disabled for enip protocol.
+20/2/2023 -- 10:55:05 - <Config> - Protocol detection and parser disabled for DNP3.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol tftp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol ikev2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol dhcp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol snmp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol sip enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rfb enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol mqtt enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rdp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 10:55:05 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+20/2/2023 -- 10:55:05 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+20/2/2023 -- 10:55:05 - <Config> - allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+20/2/2023 -- 10:55:05 - <Config> - preallocated 1000 hosts of size 136
+20/2/2023 -- 10:55:05 - <Config> - host memory usage: 398144 bytes, maximum: 33554432
+20/2/2023 -- 10:55:05 - <Config> - Core dump size is unlimited.
+20/2/2023 -- 10:55:05 - <Config> - defrag.memcap-policy: ignore
+20/2/2023 -- 10:55:05 - <Config> - allocated 3670016 bytes of memory for the defrag hash... 65536 buckets of size 56
+20/2/2023 -- 10:55:05 - <Config> - preallocated 65535 defrag trackers of size 160
+20/2/2023 -- 10:55:05 - <Config> - defrag memory usage: 14155616 bytes, maximum: 33554432
+20/2/2023 -- 10:55:05 - <Config> - flow.memcap-policy: ignore
+20/2/2023 -- 10:55:05 - <Config> - flow size 320, memcap allows for 419430 flows. Per hash row in perfect conditions 6
+20/2/2023 -- 10:55:05 - <Config> - stream "prealloc-sessions": 2048 (per thread)
+20/2/2023 -- 10:55:05 - <Config> - stream "memcap": 67108864
+20/2/2023 -- 10:55:05 - <Config> - stream "midstream" session pickups: disabled
+20/2/2023 -- 10:55:05 - <Config> - stream "async-oneside": disabled
+20/2/2023 -- 10:55:05 - <Config> - stream "checksum-validation": enabled
+20/2/2023 -- 10:55:05 - <Config> - stream.memcap-policy: ignore
+20/2/2023 -- 10:55:05 - <Config> - stream.reassembly.memcap-policy: ignore
+20/2/2023 -- 10:55:05 - <Config> - memcap-policy: 0/0
+20/2/2023 -- 10:55:05 - <Config> - stream.midstream-policy: ignore
+20/2/2023 -- 10:55:05 - <Config> - stream."inline": disabled
+20/2/2023 -- 10:55:05 - <Config> - stream "bypass": disabled
+20/2/2023 -- 10:55:05 - <Config> - stream "max-synack-queued": 5
+20/2/2023 -- 10:55:05 - <Config> - stream.reassembly "memcap": 268435456
+20/2/2023 -- 10:55:05 - <Config> - stream.reassembly "depth": 1048576
+20/2/2023 -- 10:55:05 - <Config> - stream.reassembly "toserver-chunk-size": 2562
+20/2/2023 -- 10:55:05 - <Config> - stream.reassembly "toclient-chunk-size": 2599
+20/2/2023 -- 10:55:05 - <Config> - stream.reassembly.raw: enabled
+20/2/2023 -- 10:55:05 - <Config> - stream.reassembly "segment-prealloc": 2048
+20/2/2023 -- 10:55:05 - <Info> - fast output device (regular) initialized: fast.log
+20/2/2023 -- 10:55:05 - <Info> - eve-log output device (regular) initialized: eve.json
+20/2/2023 -- 10:55:05 - <Config> - enabling 'eve-log' module 'alert'
+20/2/2023 -- 10:55:05 - <Config> - enabling 'eve-log' module 'http'
+20/2/2023 -- 10:55:05 - <Config> - enabling 'eve-log' module 'dns'
+20/2/2023 -- 10:55:05 - <Config> - eve-log dns version not set, defaulting to version 2
+20/2/2023 -- 10:55:05 - <Config> - eve-log dns version not set, defaulting to version 2
+20/2/2023 -- 10:55:05 - <Config> - enabling 'eve-log' module 'tls'
+20/2/2023 -- 10:55:05 - <Config> - enabling 'eve-log' module 'files'
+20/2/2023 -- 10:55:05 - <Config> - forcing md5 calculation for logged or stored files
+20/2/2023 -- 10:55:05 - <Config> - forcing sha256 calculation for logged or stored files
+20/2/2023 -- 10:55:05 - <Config> - enabling 'eve-log' module 'ssh'
+20/2/2023 -- 10:55:05 - <Config> - enabling 'eve-log' module 'flow'
+20/2/2023 -- 10:55:05 - <Info> - stats output device (regular) initialized: stats.log
+20/2/2023 -- 10:55:05 - <Config> - Delayed detect disabled
+20/2/2023 -- 10:55:05 - <Info> - Running in live mode, activating unix socket
+20/2/2023 -- 10:55:05 - <Config> - pattern matchers: MPM: hs, SPM: hs
+20/2/2023 -- 10:55:05 - <Config> - grouping: tcp-whitelist (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+20/2/2023 -- 10:55:05 - <Config> - grouping: udp-whitelist (default) 53, 135, 5060
+20/2/2023 -- 10:55:05 - <Config> - prefilter engines: MPM
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_uri
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_uri
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_uri
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_uri
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_request_line
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_client_body
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_response_line
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_accept
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_accept
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_accept_enc
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_accept_enc
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_accept_lang
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_accept_lang
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_referer
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_referer
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_connection
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_connection
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http.server
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http.server
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http.location
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http.location
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_protocol
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_protocol
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_start
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_start
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_method
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_method
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_user_agent
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_user_agent
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_host
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_host
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_host
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_raw_host
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_stat_msg
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_stat_code
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http_stat_code
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http2_header_name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http2_header_name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http2_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for http2_header
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for dns_query
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for dnp3_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for dnp3_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tls.sni
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tls.cert_issuer
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tls.cert_subject
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tls.cert_serial
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tls.cert_fingerprint
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tls.certs
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ja3.hash
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ja3.string
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ja3s.hash
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ja3s.string
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for smb_named_pipe
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for smb_share
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh.proto
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh.proto
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh_software
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh_software
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh.hassh
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh.hassh.server
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh.hassh.string
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ssh.hassh.server.string
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for krb5_cname
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for krb5_sname
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.method
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.uri
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.protocol
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.protocol
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.method
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.stat_msg
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.request_line
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for sip.response_line
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for rfb.name
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for snmp.community
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for snmp.community
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.connect.clientid
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.connect.username
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.connect.password
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.connect.willtopic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.connect.willmessage
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.publish.topic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.publish.message
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.subscribe.topic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for mqtt.unsubscribe.topic
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for icmpv4.hdr
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tcp.hdr
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for udp.hdr
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for icmpv6.hdr
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ipv4.hdr
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for ipv6.hdr
+20/2/2023 -- 10:55:05 - <Config> - IP reputation disabled
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from botcc.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from ciarmy.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from compromised.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from drop.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from dshield.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-attack_response.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-chat.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-current_events.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-dns.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-dos.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-exploit.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-ftp.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-imap.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-malware.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-misc.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-mobile_malware.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-netbios.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-p2p.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-policy.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-pop3.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-rpc.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-scan.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-smtp.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-snmp.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-sql.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-telnet.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-tftp.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-trojan.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-trojan.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-user_agents.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-voip.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-web_client.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-web_server.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from emerging-worm.rules.
+20/2/2023 -- 10:55:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+20/2/2023 -- 10:55:05 - <Config> - No rules loaded from tor.rules.
+20/2/2023 -- 10:55:05 - <Config> - Loading rule file: /etc/suricata/rules/http-events.rules
+20/2/2023 -- 10:55:05 - <Config> - Loading rule file: /etc/suricata/rules/smtp-events.rules
+20/2/2023 -- 10:55:05 - <Config> - Loading rule file: /etc/suricata/rules/dns-events.rules
+20/2/2023 -- 10:55:05 - <Config> - Loading rule file: /etc/suricata/rules/tls-events.rules
+20/2/2023 -- 10:55:05 - <Info> - 38 rule files processed. 95 rules successfully loaded, 0 rules failed
+20/2/2023 -- 10:55:05 - <Info> - Threshold config parsed: 0 rule(s) found
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tcp-packet
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for tcp-stream
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for udp-packet
+20/2/2023 -- 10:55:05 - <Perf> - using shared mpm ctx' for other-ip
+20/2/2023 -- 10:55:05 - <Info> - 95 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 95 inspect application layer, 0 are decoder event only
+20/2/2023 -- 10:55:05 - <Config> - building signature grouping structure, stage 1: preprocessing rules... complete
+20/2/2023 -- 10:55:05 - <Perf> - TCP toserver: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 10:55:05 - <Perf> - TCP toclient: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 10:55:05 - <Perf> - UDP toserver: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 10:55:05 - <Perf> - UDP toclient: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 10:55:05 - <Perf> - OTHER toserver: 0 proto groups, 0 unique SGH's, 0 copies
+20/2/2023 -- 10:55:05 - <Perf> - OTHER toclient: 0 proto groups, 0 unique SGH's, 0 copies
+20/2/2023 -- 10:55:05 - <Perf> - Unique rule groups: 4
+20/2/2023 -- 10:55:05 - <Perf> - Builtin MPM "toserver TCP packet": 0
+20/2/2023 -- 10:55:05 - <Perf> - Builtin MPM "toclient TCP packet": 0
+20/2/2023 -- 10:55:05 - <Perf> - Builtin MPM "toserver TCP stream": 0
+20/2/2023 -- 10:55:05 - <Perf> - Builtin MPM "toclient TCP stream": 0
+20/2/2023 -- 10:55:05 - <Perf> - Builtin MPM "toserver UDP packet": 0
+20/2/2023 -- 10:55:05 - <Perf> - Builtin MPM "toclient UDP packet": 0
+20/2/2023 -- 10:55:05 - <Perf> - Builtin MPM "other IP packet": 0
+20/2/2023 -- 10:55:05 - <Config> - Using flow cluster mode for AF_PACKET (iface wlp0s20f3)
+20/2/2023 -- 10:55:05 - <Config> - Using defrag kernel functionality for AF_PACKET (iface wlp0s20f3)
+20/2/2023 -- 10:55:06 - <Perf> - 8 cores, so using 8 threads
+20/2/2023 -- 10:55:06 - <Perf> - Using 8 AF_PACKET threads for interface wlp0s20f3
+20/2/2023 -- 10:55:06 - <Config> - wlp0s20f3: enabling zero copy mode by using data release call
+20/2/2023 -- 10:55:06 - <Info> - Going to use 8 thread(s)
+20/2/2023 -- 10:55:06 - <Config> - using 1 flow manager threads
+20/2/2023 -- 10:55:06 - <Config> - using 1 flow recycler threads
+20/2/2023 -- 10:55:06 - <Info> - Running in live mode, activating unix socket
+20/2/2023 -- 10:55:06 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/2/2023 -- 10:55:06 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 10:55:06 - <Info> - All AFP capture threads are running.
+20/2/2023 -- 11:04:58 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/2/2023 -- 11:04:58 - <Info> - CPUs/cores online: 8
+20/2/2023 -- 11:04:58 - <Config> - Adding interface wlp0s20f3 from config file
+20/2/2023 -- 11:04:58 - <Config> - luajit states preallocated: 128
+20/2/2023 -- 11:04:58 - <Config> - app-layer.error-policy: ignore
+20/2/2023 -- 11:04:58 - <Config> - 'default' server has 'request-body-minimal-inspect-size' set to 31135 and 'request-body-inspect-window' set to 3904 after randomization.
+20/2/2023 -- 11:04:58 - <Config> - 'default' server has 'response-body-minimal-inspect-size' set to 42251 and 'response-body-inspect-window' set to 16786 after randomization.
+20/2/2023 -- 11:04:58 - <Config> - SMB stream depth: 0
+20/2/2023 -- 11:04:58 - <Config> - SMB max-read-size: 0
+20/2/2023 -- 11:04:58 - <Config> - SMB max-write-size: 0
+20/2/2023 -- 11:04:58 - <Config> - SMB max-write-queue-size: 0
+20/2/2023 -- 11:04:58 - <Config> - SMB max-write-queue-cnt: 0
+20/2/2023 -- 11:04:58 - <Config> - SMB max-read-queue-size: 0
+20/2/2023 -- 11:04:58 - <Config> - SMB max-read-queue-cnt: 0
+20/2/2023 -- 11:04:58 - <Config> - read: max record size: 0, max queued chunks 0, max queued size 0
+20/2/2023 -- 11:04:58 - <Config> - write: max record size: 0, max queued chunks 0, max queued size 0
+20/2/2023 -- 11:04:58 - <Config> - Protocol detection and parser disabled for modbus protocol.
+20/2/2023 -- 11:04:58 - <Config> - Protocol detection and parser disabled for enip protocol.
+20/2/2023 -- 11:04:58 - <Config> - Protocol detection and parser disabled for DNP3.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol tftp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol ikev2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol dhcp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol snmp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol sip enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rfb enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol mqtt enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rdp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:04:58 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+20/2/2023 -- 11:04:58 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+20/2/2023 -- 11:04:58 - <Config> - allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+20/2/2023 -- 11:04:58 - <Config> - preallocated 1000 hosts of size 136
+20/2/2023 -- 11:04:58 - <Config> - host memory usage: 398144 bytes, maximum: 33554432
+20/2/2023 -- 11:04:58 - <Config> - Core dump size is unlimited.
+20/2/2023 -- 11:04:58 - <Config> - defrag.memcap-policy: ignore
+20/2/2023 -- 11:04:58 - <Config> - allocated 3670016 bytes of memory for the defrag hash... 65536 buckets of size 56
+20/2/2023 -- 11:04:58 - <Config> - preallocated 65535 defrag trackers of size 160
+20/2/2023 -- 11:04:58 - <Config> - defrag memory usage: 14155616 bytes, maximum: 33554432
+20/2/2023 -- 11:04:58 - <Config> - flow.memcap-policy: ignore
+20/2/2023 -- 11:04:58 - <Config> - flow size 320, memcap allows for 419430 flows. Per hash row in perfect conditions 6
+20/2/2023 -- 11:04:58 - <Config> - stream "prealloc-sessions": 2048 (per thread)
+20/2/2023 -- 11:04:58 - <Config> - stream "memcap": 67108864
+20/2/2023 -- 11:04:58 - <Config> - stream "midstream" session pickups: disabled
+20/2/2023 -- 11:04:58 - <Config> - stream "async-oneside": disabled
+20/2/2023 -- 11:04:58 - <Config> - stream "checksum-validation": enabled
+20/2/2023 -- 11:04:58 - <Config> - stream.memcap-policy: ignore
+20/2/2023 -- 11:04:58 - <Config> - stream.reassembly.memcap-policy: ignore
+20/2/2023 -- 11:04:58 - <Config> - memcap-policy: 0/0
+20/2/2023 -- 11:04:58 - <Config> - stream.midstream-policy: ignore
+20/2/2023 -- 11:04:58 - <Config> - stream."inline": disabled
+20/2/2023 -- 11:04:58 - <Config> - stream "bypass": disabled
+20/2/2023 -- 11:04:58 - <Config> - stream "max-synack-queued": 5
+20/2/2023 -- 11:04:58 - <Config> - stream.reassembly "memcap": 268435456
+20/2/2023 -- 11:04:58 - <Config> - stream.reassembly "depth": 1048576
+20/2/2023 -- 11:04:58 - <Config> - stream.reassembly "toserver-chunk-size": 2576
+20/2/2023 -- 11:04:58 - <Config> - stream.reassembly "toclient-chunk-size": 2661
+20/2/2023 -- 11:04:58 - <Config> - stream.reassembly.raw: enabled
+20/2/2023 -- 11:04:58 - <Config> - stream.reassembly "segment-prealloc": 2048
+20/2/2023 -- 11:04:58 - <Info> - fast output device (regular) initialized: fast.log
+20/2/2023 -- 11:04:58 - <Info> - eve-log output device (regular) initialized: eve.json
+20/2/2023 -- 11:04:58 - <Config> - enabling 'eve-log' module 'alert'
+20/2/2023 -- 11:04:58 - <Config> - enabling 'eve-log' module 'http'
+20/2/2023 -- 11:04:58 - <Config> - enabling 'eve-log' module 'dns'
+20/2/2023 -- 11:04:58 - <Config> - eve-log dns version not set, defaulting to version 2
+20/2/2023 -- 11:04:58 - <Config> - eve-log dns version not set, defaulting to version 2
+20/2/2023 -- 11:04:58 - <Config> - enabling 'eve-log' module 'tls'
+20/2/2023 -- 11:04:58 - <Config> - enabling 'eve-log' module 'files'
+20/2/2023 -- 11:04:58 - <Config> - forcing md5 calculation for logged or stored files
+20/2/2023 -- 11:04:58 - <Config> - forcing sha256 calculation for logged or stored files
+20/2/2023 -- 11:04:58 - <Config> - enabling 'eve-log' module 'ssh'
+20/2/2023 -- 11:04:58 - <Config> - enabling 'eve-log' module 'flow'
+20/2/2023 -- 11:04:58 - <Info> - stats output device (regular) initialized: stats.log
+20/2/2023 -- 11:04:58 - <Config> - Delayed detect disabled
+20/2/2023 -- 11:04:58 - <Info> - Running in live mode, activating unix socket
+20/2/2023 -- 11:04:58 - <Config> - pattern matchers: MPM: hs, SPM: hs
+20/2/2023 -- 11:04:58 - <Config> - grouping: tcp-whitelist (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+20/2/2023 -- 11:04:58 - <Config> - grouping: udp-whitelist (default) 53, 135, 5060
+20/2/2023 -- 11:04:58 - <Config> - prefilter engines: MPM
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_uri
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_uri
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_uri
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_uri
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_request_line
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_client_body
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_response_line
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_accept
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_accept
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_accept_enc
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_accept_enc
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_accept_lang
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_accept_lang
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_referer
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_referer
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_connection
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_connection
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http.server
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http.server
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http.location
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http.location
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_protocol
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_protocol
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_start
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_start
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_method
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_method
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_user_agent
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_user_agent
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_host
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_host
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_host
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_raw_host
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_stat_msg
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_stat_code
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http_stat_code
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http2_header_name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http2_header_name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http2_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for http2_header
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for dns_query
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for dnp3_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for dnp3_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tls.sni
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tls.cert_issuer
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tls.cert_subject
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tls.cert_serial
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tls.cert_fingerprint
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tls.certs
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ja3.hash
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ja3.string
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ja3s.hash
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ja3s.string
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for smb_named_pipe
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for smb_share
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh.proto
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh.proto
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh_software
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh_software
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh.hassh
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh.hassh.server
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh.hassh.string
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ssh.hassh.server.string
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for krb5_cname
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for krb5_sname
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.method
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.uri
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.protocol
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.protocol
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.method
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.stat_msg
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.request_line
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for sip.response_line
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for rfb.name
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for snmp.community
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for snmp.community
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.connect.clientid
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.connect.username
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.connect.password
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.connect.willtopic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.connect.willmessage
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.publish.topic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.publish.message
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.subscribe.topic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for mqtt.unsubscribe.topic
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for icmpv4.hdr
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tcp.hdr
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for udp.hdr
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for icmpv6.hdr
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ipv4.hdr
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for ipv6.hdr
+20/2/2023 -- 11:04:58 - <Config> - IP reputation disabled
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from botcc.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from ciarmy.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from compromised.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from drop.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from dshield.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-attack_response.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-chat.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-current_events.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-dns.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-dos.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-exploit.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-ftp.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-imap.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-malware.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-misc.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-mobile_malware.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-netbios.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-p2p.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-policy.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-pop3.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-rpc.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-scan.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-smtp.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-snmp.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-sql.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-telnet.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-tftp.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-trojan.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-trojan.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-user_agents.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-voip.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-web_client.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-web_server.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from emerging-worm.rules.
+20/2/2023 -- 11:04:58 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+20/2/2023 -- 11:04:58 - <Config> - No rules loaded from tor.rules.
+20/2/2023 -- 11:04:58 - <Config> - Loading rule file: /etc/suricata/rules/http-events.rules
+20/2/2023 -- 11:04:58 - <Config> - Loading rule file: /etc/suricata/rules/smtp-events.rules
+20/2/2023 -- 11:04:58 - <Config> - Loading rule file: /etc/suricata/rules/dns-events.rules
+20/2/2023 -- 11:04:58 - <Config> - Loading rule file: /etc/suricata/rules/tls-events.rules
+20/2/2023 -- 11:04:58 - <Info> - 38 rule files processed. 95 rules successfully loaded, 0 rules failed
+20/2/2023 -- 11:04:58 - <Info> - Threshold config parsed: 0 rule(s) found
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tcp-packet
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for tcp-stream
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for udp-packet
+20/2/2023 -- 11:04:58 - <Perf> - using shared mpm ctx' for other-ip
+20/2/2023 -- 11:04:58 - <Info> - 95 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 95 inspect application layer, 0 are decoder event only
+20/2/2023 -- 11:04:58 - <Config> - building signature grouping structure, stage 1: preprocessing rules... complete
+20/2/2023 -- 11:04:58 - <Perf> - TCP toserver: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:04:58 - <Perf> - TCP toclient: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:04:58 - <Perf> - UDP toserver: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:04:58 - <Perf> - UDP toclient: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:04:58 - <Perf> - OTHER toserver: 0 proto groups, 0 unique SGH's, 0 copies
+20/2/2023 -- 11:04:58 - <Perf> - OTHER toclient: 0 proto groups, 0 unique SGH's, 0 copies
+20/2/2023 -- 11:04:58 - <Perf> - Unique rule groups: 4
+20/2/2023 -- 11:04:58 - <Perf> - Builtin MPM "toserver TCP packet": 0
+20/2/2023 -- 11:04:58 - <Perf> - Builtin MPM "toclient TCP packet": 0
+20/2/2023 -- 11:04:58 - <Perf> - Builtin MPM "toserver TCP stream": 0
+20/2/2023 -- 11:04:58 - <Perf> - Builtin MPM "toclient TCP stream": 0
+20/2/2023 -- 11:04:58 - <Perf> - Builtin MPM "toserver UDP packet": 0
+20/2/2023 -- 11:04:58 - <Perf> - Builtin MPM "toclient UDP packet": 0
+20/2/2023 -- 11:04:58 - <Perf> - Builtin MPM "other IP packet": 0
+20/2/2023 -- 11:04:58 - <Config> - Using flow cluster mode for AF_PACKET (iface wlp0s20f3)
+20/2/2023 -- 11:04:58 - <Config> - Using defrag kernel functionality for AF_PACKET (iface wlp0s20f3)
+20/2/2023 -- 11:04:58 - <Perf> - 8 cores, so using 8 threads
+20/2/2023 -- 11:04:58 - <Perf> - Using 8 AF_PACKET threads for interface wlp0s20f3
+20/2/2023 -- 11:04:58 - <Config> - wlp0s20f3: enabling zero copy mode by using data release call
+20/2/2023 -- 11:04:58 - <Info> - Going to use 8 thread(s)
+20/2/2023 -- 11:04:58 - <Config> - using 1 flow manager threads
+20/2/2023 -- 11:04:58 - <Config> - using 1 flow recycler threads
+20/2/2023 -- 11:04:58 - <Info> - Running in live mode, activating unix socket
+20/2/2023 -- 11:04:58 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/2/2023 -- 11:04:58 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:04:58 - <Info> - All AFP capture threads are running.
+20/2/2023 -- 11:44:38 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/2/2023 -- 11:44:38 - <Info> - CPUs/cores online: 8
+20/2/2023 -- 11:44:38 - <Config> - Adding interface wlp0s20f3 from config file
+20/2/2023 -- 11:44:38 - <Config> - luajit states preallocated: 128
+20/2/2023 -- 11:44:38 - <Config> - app-layer.error-policy: ignore
+20/2/2023 -- 11:44:38 - <Config> - 'default' server has 'request-body-minimal-inspect-size' set to 33982 and 'request-body-inspect-window' set to 4286 after randomization.
+20/2/2023 -- 11:44:38 - <Config> - 'default' server has 'response-body-minimal-inspect-size' set to 39675 and 'response-body-inspect-window' set to 16115 after randomization.
+20/2/2023 -- 11:44:38 - <Config> - SMB stream depth: 0
+20/2/2023 -- 11:44:38 - <Config> - SMB max-read-size: 0
+20/2/2023 -- 11:44:38 - <Config> - SMB max-write-size: 0
+20/2/2023 -- 11:44:38 - <Config> - SMB max-write-queue-size: 0
+20/2/2023 -- 11:44:38 - <Config> - SMB max-write-queue-cnt: 0
+20/2/2023 -- 11:44:38 - <Config> - SMB max-read-queue-size: 0
+20/2/2023 -- 11:44:38 - <Config> - SMB max-read-queue-cnt: 0
+20/2/2023 -- 11:44:38 - <Config> - read: max record size: 0, max queued chunks 0, max queued size 0
+20/2/2023 -- 11:44:38 - <Config> - write: max record size: 0, max queued chunks 0, max queued size 0
+20/2/2023 -- 11:44:38 - <Config> - Protocol detection and parser disabled for modbus protocol.
+20/2/2023 -- 11:44:38 - <Config> - Protocol detection and parser disabled for enip protocol.
+20/2/2023 -- 11:44:38 - <Config> - Protocol detection and parser disabled for DNP3.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol tftp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol ikev2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol dhcp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol snmp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol sip enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rfb enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol mqtt enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rdp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+20/2/2023 -- 11:44:38 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+20/2/2023 -- 11:44:38 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+20/2/2023 -- 11:44:38 - <Config> - allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+20/2/2023 -- 11:44:38 - <Config> - preallocated 1000 hosts of size 136
+20/2/2023 -- 11:44:38 - <Config> - host memory usage: 398144 bytes, maximum: 33554432
+20/2/2023 -- 11:44:38 - <Config> - Core dump size is unlimited.
+20/2/2023 -- 11:44:38 - <Config> - defrag.memcap-policy: ignore
+20/2/2023 -- 11:44:38 - <Config> - allocated 3670016 bytes of memory for the defrag hash... 65536 buckets of size 56
+20/2/2023 -- 11:44:38 - <Config> - preallocated 65535 defrag trackers of size 160
+20/2/2023 -- 11:44:38 - <Config> - defrag memory usage: 14155616 bytes, maximum: 33554432
+20/2/2023 -- 11:44:38 - <Config> - flow.memcap-policy: ignore
+20/2/2023 -- 11:44:38 - <Config> - flow size 320, memcap allows for 419430 flows. Per hash row in perfect conditions 6
+20/2/2023 -- 11:44:38 - <Config> - stream "prealloc-sessions": 2048 (per thread)
+20/2/2023 -- 11:44:38 - <Config> - stream "memcap": 67108864
+20/2/2023 -- 11:44:38 - <Config> - stream "midstream" session pickups: disabled
+20/2/2023 -- 11:44:38 - <Config> - stream "async-oneside": disabled
+20/2/2023 -- 11:44:38 - <Config> - stream "checksum-validation": enabled
+20/2/2023 -- 11:44:38 - <Config> - stream.memcap-policy: ignore
+20/2/2023 -- 11:44:38 - <Config> - stream.reassembly.memcap-policy: ignore
+20/2/2023 -- 11:44:38 - <Config> - memcap-policy: 0/0
+20/2/2023 -- 11:44:38 - <Config> - stream.midstream-policy: ignore
+20/2/2023 -- 11:44:38 - <Config> - stream."inline": disabled
+20/2/2023 -- 11:44:38 - <Config> - stream "bypass": disabled
+20/2/2023 -- 11:44:38 - <Config> - stream "max-synack-queued": 5
+20/2/2023 -- 11:44:38 - <Config> - stream.reassembly "memcap": 268435456
+20/2/2023 -- 11:44:38 - <Config> - stream.reassembly "depth": 1048576
+20/2/2023 -- 11:44:38 - <Config> - stream.reassembly "toserver-chunk-size": 2474
+20/2/2023 -- 11:44:38 - <Config> - stream.reassembly "toclient-chunk-size": 2469
+20/2/2023 -- 11:44:38 - <Config> - stream.reassembly.raw: enabled
+20/2/2023 -- 11:44:38 - <Config> - stream.reassembly "segment-prealloc": 2048
+20/2/2023 -- 11:44:38 - <Info> - fast output device (regular) initialized: fast.log
+20/2/2023 -- 11:44:38 - <Info> - eve-log output device (regular) initialized: eve.json
+20/2/2023 -- 11:44:38 - <Config> - enabling 'eve-log' module 'alert'
+20/2/2023 -- 11:44:38 - <Config> - enabling 'eve-log' module 'http'
+20/2/2023 -- 11:44:38 - <Config> - enabling 'eve-log' module 'dns'
+20/2/2023 -- 11:44:38 - <Config> - eve-log dns version not set, defaulting to version 2
+20/2/2023 -- 11:44:38 - <Config> - eve-log dns version not set, defaulting to version 2
+20/2/2023 -- 11:44:38 - <Config> - enabling 'eve-log' module 'tls'
+20/2/2023 -- 11:44:38 - <Config> - enabling 'eve-log' module 'files'
+20/2/2023 -- 11:44:38 - <Config> - forcing md5 calculation for logged or stored files
+20/2/2023 -- 11:44:38 - <Config> - forcing sha256 calculation for logged or stored files
+20/2/2023 -- 11:44:38 - <Config> - enabling 'eve-log' module 'ssh'
+20/2/2023 -- 11:44:38 - <Config> - enabling 'eve-log' module 'flow'
+20/2/2023 -- 11:44:38 - <Info> - stats output device (regular) initialized: stats.log
+20/2/2023 -- 11:44:38 - <Config> - Delayed detect disabled
+20/2/2023 -- 11:44:38 - <Info> - Running in live mode, activating unix socket
+20/2/2023 -- 11:44:38 - <Config> - pattern matchers: MPM: hs, SPM: hs
+20/2/2023 -- 11:44:38 - <Config> - grouping: tcp-whitelist (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+20/2/2023 -- 11:44:38 - <Config> - grouping: udp-whitelist (default) 53, 135, 5060
+20/2/2023 -- 11:44:38 - <Config> - prefilter engines: MPM
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_uri
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_uri
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_uri
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_uri
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_request_line
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_client_body
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_response_line
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_header_names
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_accept
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_accept
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_accept_enc
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_accept_enc
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_accept_lang
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_accept_lang
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_referer
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_referer
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_connection
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_connection
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_len
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_content_type
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http.server
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http.server
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http.location
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http.location
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_protocol
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_protocol
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_start
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_start
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_method
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_method
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_cookie
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file.magic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_user_agent
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_user_agent
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_host
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_host
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_host
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_raw_host
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_stat_msg
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_stat_code
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http_stat_code
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http2_header_name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http2_header_name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http2_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for http2_header
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for dns_query
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for dnp3_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for dnp3_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tls.sni
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tls.cert_issuer
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tls.cert_subject
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tls.cert_serial
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tls.cert_fingerprint
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tls.certs
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ja3.hash
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ja3.string
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ja3s.hash
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ja3s.string
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for dce_stub_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for smb_named_pipe
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for smb_share
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh.proto
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh.proto
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh_software
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh_software
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh.hassh
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh.hassh.server
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh.hassh.string
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ssh.hassh.server.string
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for file_data
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for krb5_cname
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for krb5_sname
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.method
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.uri
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.protocol
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.protocol
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.method
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.stat_msg
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.request_line
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for sip.response_line
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for rfb.name
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for snmp.community
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for snmp.community
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.connect.clientid
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.connect.username
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.connect.password
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.connect.willtopic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.connect.willmessage
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.publish.topic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.publish.message
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.subscribe.topic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for mqtt.unsubscribe.topic
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for icmpv4.hdr
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tcp.hdr
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for udp.hdr
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for icmpv6.hdr
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ipv4.hdr
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for ipv6.hdr
+20/2/2023 -- 11:44:38 - <Config> - IP reputation disabled
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from botcc.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from ciarmy.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from compromised.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from drop.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from dshield.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-attack_response.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-chat.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-current_events.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-dns.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-dos.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-exploit.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-ftp.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-imap.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-malware.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-misc.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-mobile_malware.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-netbios.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-p2p.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-policy.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-pop3.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-rpc.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-scan.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-smtp.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-snmp.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-sql.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-telnet.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-tftp.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-trojan.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-trojan.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-user_agents.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-voip.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-web_client.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-web_server.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from emerging-worm.rules.
+20/2/2023 -- 11:44:38 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+20/2/2023 -- 11:44:38 - <Config> - No rules loaded from tor.rules.
+20/2/2023 -- 11:44:38 - <Config> - Loading rule file: /etc/suricata/rules/http-events.rules
+20/2/2023 -- 11:44:38 - <Config> - Loading rule file: /etc/suricata/rules/smtp-events.rules
+20/2/2023 -- 11:44:38 - <Config> - Loading rule file: /etc/suricata/rules/dns-events.rules
+20/2/2023 -- 11:44:38 - <Config> - Loading rule file: /etc/suricata/rules/tls-events.rules
+20/2/2023 -- 11:44:38 - <Info> - 38 rule files processed. 95 rules successfully loaded, 0 rules failed
+20/2/2023 -- 11:44:38 - <Info> - Threshold config parsed: 0 rule(s) found
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tcp-packet
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for tcp-stream
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for udp-packet
+20/2/2023 -- 11:44:38 - <Perf> - using shared mpm ctx' for other-ip
+20/2/2023 -- 11:44:38 - <Info> - 95 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 95 inspect application layer, 0 are decoder event only
+20/2/2023 -- 11:44:38 - <Config> - building signature grouping structure, stage 1: preprocessing rules... complete
+20/2/2023 -- 11:44:38 - <Perf> - TCP toserver: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:44:38 - <Perf> - TCP toclient: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:44:38 - <Perf> - UDP toserver: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:44:38 - <Perf> - UDP toclient: 1 port groups, 1 unique SGH's, 0 copies
+20/2/2023 -- 11:44:38 - <Perf> - OTHER toserver: 0 proto groups, 0 unique SGH's, 0 copies
+20/2/2023 -- 11:44:38 - <Perf> - OTHER toclient: 0 proto groups, 0 unique SGH's, 0 copies
+20/2/2023 -- 11:44:38 - <Perf> - Unique rule groups: 4
+20/2/2023 -- 11:44:38 - <Perf> - Builtin MPM "toserver TCP packet": 0
+20/2/2023 -- 11:44:38 - <Perf> - Builtin MPM "toclient TCP packet": 0
+20/2/2023 -- 11:44:38 - <Perf> - Builtin MPM "toserver TCP stream": 0
+20/2/2023 -- 11:44:38 - <Perf> - Builtin MPM "toclient TCP stream": 0
+20/2/2023 -- 11:44:38 - <Perf> - Builtin MPM "toserver UDP packet": 0
+20/2/2023 -- 11:44:38 - <Perf> - Builtin MPM "toclient UDP packet": 0
+20/2/2023 -- 11:44:38 - <Perf> - Builtin MPM "other IP packet": 0
+20/2/2023 -- 11:44:38 - <Config> - Using flow cluster mode for AF_PACKET (iface wlp0s20f3)
+20/2/2023 -- 11:44:38 - <Config> - Using defrag kernel functionality for AF_PACKET (iface wlp0s20f3)
+20/2/2023 -- 11:44:38 - <Perf> - 8 cores, so using 8 threads
+20/2/2023 -- 11:44:38 - <Perf> - Using 8 AF_PACKET threads for interface wlp0s20f3
+20/2/2023 -- 11:44:38 - <Perf> - wlp0s20f3: disabling gro offloading
+20/2/2023 -- 11:44:38 - <Perf> - wlp0s20f3: disabling tso offloading
+20/2/2023 -- 11:44:38 - <Perf> - wlp0s20f3: disabling gso offloading
+20/2/2023 -- 11:44:38 - <Perf> - wlp0s20f3: disabling sg offloading
+20/2/2023 -- 11:44:38 - <Config> - wlp0s20f3: enabling zero copy mode by using data release call
+20/2/2023 -- 11:44:38 - <Info> - Going to use 8 thread(s)
+20/2/2023 -- 11:44:38 - <Config> - using 1 flow manager threads
+20/2/2023 -- 11:44:38 - <Config> - using 1 flow recycler threads
+20/2/2023 -- 11:44:38 - <Info> - Running in live mode, activating unix socket
+20/2/2023 -- 11:44:38 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/2/2023 -- 11:44:38 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:38 - <Info> - All AFP capture threads are running.
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:43 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:44 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlp0s20f3': (100) Network is down
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+20/2/2023 -- 11:44:45 - <Info> - Interface 'wlp0s20f3' is back
+21/2/2023 -- 04:46:34 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+21/2/2023 -- 04:46:34 - <Info> - CPUs/cores online: 8
+21/2/2023 -- 04:46:34 - <Config> - Adding interface wlp0s20f3 from config file
+21/2/2023 -- 04:46:34 - <Config> - luajit states preallocated: 128
+21/2/2023 -- 04:46:34 - <Config> - app-layer.error-policy: ignore
+21/2/2023 -- 04:46:34 - <Config> - 'default' server has 'request-body-minimal-inspect-size' set to 33206 and 'request-body-inspect-window' set to 4083 after randomization.
+21/2/2023 -- 04:46:34 - <Config> - 'default' server has 'response-body-minimal-inspect-size' set to 39413 and 'response-body-inspect-window' set to 16519 after randomization.
+21/2/2023 -- 04:46:34 - <Config> - SMB stream depth: 0
+21/2/2023 -- 04:46:34 - <Config> - SMB max-read-size: 0
+21/2/2023 -- 04:46:34 - <Config> - SMB max-write-size: 0
+21/2/2023 -- 04:46:34 - <Config> - SMB max-write-queue-size: 0
+21/2/2023 -- 04:46:34 - <Config> - SMB max-write-queue-cnt: 0
+21/2/2023 -- 04:46:34 - <Config> - SMB max-read-queue-size: 0
+21/2/2023 -- 04:46:34 - <Config> - SMB max-read-queue-cnt: 0
+21/2/2023 -- 04:46:34 - <Config> - read: max record size: 0, max queued chunks 0, max queued size 0
+21/2/2023 -- 04:46:34 - <Config> - write: max record size: 0, max queued chunks 0, max queued size 0
+21/2/2023 -- 04:46:34 - <Config> - Protocol detection and parser disabled for modbus protocol.
+21/2/2023 -- 04:46:34 - <Config> - Protocol detection and parser disabled for enip protocol.
+21/2/2023 -- 04:46:34 - <Config> - Protocol detection and parser disabled for DNP3.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol tftp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol ikev2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol krb5 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol dhcp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol snmp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol sip enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rfb enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol mqtt enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol rdp enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_CONF_YAML_ERROR(242)] - App-Layer protocol http2 enable status not set, so enabling by default. This behavior will change in Suricata 7, so please update your config. See ticket #4744 for more details.
+21/2/2023 -- 04:46:34 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+21/2/2023 -- 04:46:34 - <Info> - Found an MTU of 1500 for 'wlp0s20f3'
+21/2/2023 -- 04:46:34 - <Config> - allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+21/2/2023 -- 04:46:34 - <Config> - preallocated 1000 hosts of size 136
+21/2/2023 -- 04:46:34 - <Config> - host memory usage: 398144 bytes, maximum: 33554432
+21/2/2023 -- 04:46:34 - <Config> - Core dump size is unlimited.
+21/2/2023 -- 04:46:34 - <Config> - defrag.memcap-policy: ignore
+21/2/2023 -- 04:46:34 - <Config> - allocated 3670016 bytes of memory for the defrag hash... 65536 buckets of size 56
+21/2/2023 -- 04:46:34 - <Config> - preallocated 65535 defrag trackers of size 160
+21/2/2023 -- 04:46:34 - <Config> - defrag memory usage: 14155616 bytes, maximum: 33554432
+21/2/2023 -- 04:46:34 - <Config> - flow.memcap-policy: ignore
+21/2/2023 -- 04:46:34 - <Config> - flow size 320, memcap allows for 419430 flows. Per hash row in perfect conditions 6
+21/2/2023 -- 04:46:34 - <Config> - stream "prealloc-sessions": 2048 (per thread)
+21/2/2023 -- 04:46:34 - <Config> - stream "memcap": 67108864
+21/2/2023 -- 04:46:34 - <Config> - stream "midstream" session pickups: disabled
+21/2/2023 -- 04:46:34 - <Config> - stream "async-oneside": disabled
+21/2/2023 -- 04:46:34 - <Config> - stream "checksum-validation": enabled
+21/2/2023 -- 04:46:34 - <Config> - stream.memcap-policy: ignore
+21/2/2023 -- 04:46:34 - <Config> - stream.reassembly.memcap-policy: ignore
+21/2/2023 -- 04:46:34 - <Config> - memcap-policy: 0/0
+21/2/2023 -- 04:46:34 - <Config> - stream.midstream-policy: ignore
+21/2/2023 -- 04:46:34 - <Config> - stream."inline": disabled
+21/2/2023 -- 04:46:34 - <Config> - stream "bypass": disabled
+21/2/2023 -- 04:46:34 - <Config> - stream "max-synack-queued": 5
+21/2/2023 -- 04:46:34 - <Config> - stream.reassembly "memcap": 268435456
+21/2/2023 -- 04:46:34 - <Config> - stream.reassembly "depth": 1048576
+21/2/2023 -- 04:46:34 - <Config> - stream.reassembly "toserver-chunk-size": 2644
+21/2/2023 -- 04:46:34 - <Config> - stream.reassembly "toclient-chunk-size": 2561
+21/2/2023 -- 04:46:34 - <Config> - stream.reassembly.raw: enabled
+21/2/2023 -- 04:46:34 - <Config> - stream.reassembly "segment-prealloc": 2048
+21/2/2023 -- 04:46:34 - <Info> - fast output device (regular) initialized: fast.log
+21/2/2023 -- 04:46:34 - <Info> - eve-log output device (regular) initialized: eve.json
+21/2/2023 -- 04:46:34 - <Config> - enabling 'eve-log' module 'alert'
+21/2/2023 -- 04:46:34 - <Config> - enabling 'eve-log' module 'http'
+21/2/2023 -- 04:46:34 - <Config> - enabling 'eve-log' module 'dns'
+21/2/2023 -- 04:46:34 - <Config> - eve-log dns version not set, defaulting to version 2
+21/2/2023 -- 04:46:34 - <Config> - eve-log dns version not set, defaulting to version 2
+21/2/2023 -- 04:46:34 - <Config> - enabling 'eve-log' module 'tls'
+21/2/2023 -- 04:46:34 - <Config> - enabling 'eve-log' module 'files'
+21/2/2023 -- 04:46:34 - <Config> - forcing md5 calculation for logged or stored files
+21/2/2023 -- 04:46:34 - <Config> - forcing sha256 calculation for logged or stored files
+21/2/2023 -- 04:46:34 - <Config> - enabling 'eve-log' module 'ssh'
+21/2/2023 -- 04:46:34 - <Config> - enabling 'eve-log' module 'flow'
+21/2/2023 -- 04:46:34 - <Info> - stats output device (regular) initialized: stats.log
+21/2/2023 -- 04:46:34 - <Config> - Delayed detect disabled
+21/2/2023 -- 04:46:34 - <Info> - Running in live mode, activating unix socket
+21/2/2023 -- 04:46:34 - <Config> - pattern matchers: MPM: hs, SPM: hs
+21/2/2023 -- 04:46:34 - <Config> - grouping: tcp-whitelist (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+21/2/2023 -- 04:46:34 - <Config> - grouping: udp-whitelist (default) 53, 135, 5060
+21/2/2023 -- 04:46:34 - <Config> - prefilter engines: MPM
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_uri
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_uri
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_uri
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_uri
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_request_line
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_client_body
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_response_line
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header_names
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header_names
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header_names
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_header_names
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_accept
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_accept
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_accept_enc
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_accept_enc
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_accept_lang
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_accept_lang
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_referer
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_referer
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_connection
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_connection
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_len
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_len
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_len
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_len
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_type
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_type
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_type
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_content_type
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http.server
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http.server
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http.location
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http.location
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_protocol
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_protocol
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_start
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_start
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_method
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_method
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_cookie
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_cookie
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_cookie
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_cookie
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file.magic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_user_agent
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_user_agent
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_host
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_host
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_host
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_raw_host
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_stat_msg
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_stat_code
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http_stat_code
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http2_header_name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http2_header_name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http2_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for http2_header
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for dns_query
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for dnp3_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for dnp3_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tls.sni
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tls.cert_issuer
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tls.cert_subject
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tls.cert_serial
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tls.cert_fingerprint
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tls.certs
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ja3.hash
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ja3.string
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ja3s.hash
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ja3s.string
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for dce_stub_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for dce_stub_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for dce_stub_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for dce_stub_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for smb_named_pipe
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for smb_share
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh.proto
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh.proto
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh_software
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh_software
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh.hassh
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh.hassh.server
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh.hassh.string
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ssh.hassh.server.string
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for file_data
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for krb5_cname
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for krb5_sname
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.method
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.uri
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.protocol
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.protocol
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.method
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.stat_msg
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.request_line
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for sip.response_line
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for rfb.name
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for snmp.community
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for snmp.community
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.connect.clientid
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.connect.username
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.connect.password
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.connect.willtopic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.connect.willmessage
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.publish.topic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.publish.message
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.subscribe.topic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for mqtt.unsubscribe.topic
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for icmpv4.hdr
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tcp.hdr
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for udp.hdr
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for icmpv6.hdr
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ipv4.hdr
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for ipv6.hdr
+21/2/2023 -- 04:46:34 - <Config> - IP reputation disabled
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from botcc.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from ciarmy.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from compromised.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from drop.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from dshield.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-attack_response.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-chat.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-current_events.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-dns.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-dos.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-exploit.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-ftp.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-imap.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-malware.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-misc.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-mobile_malware.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-netbios.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-p2p.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-policy.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-pop3.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-rpc.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-scan.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-smtp.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-snmp.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-sql.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-telnet.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-tftp.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-trojan.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-trojan.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-user_agents.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-voip.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-web_client.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-web_server.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from emerging-worm.rules.
+21/2/2023 -- 04:46:34 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+21/2/2023 -- 04:46:34 - <Config> - No rules loaded from tor.rules.
+21/2/2023 -- 04:46:34 - <Config> - Loading rule file: /etc/suricata/rules/http-events.rules
+21/2/2023 -- 04:46:34 - <Config> - Loading rule file: /etc/suricata/rules/smtp-events.rules
+21/2/2023 -- 04:46:34 - <Config> - Loading rule file: /etc/suricata/rules/dns-events.rules
+21/2/2023 -- 04:46:34 - <Config> - Loading rule file: /etc/suricata/rules/tls-events.rules
+21/2/2023 -- 04:46:34 - <Info> - 38 rule files processed. 95 rules successfully loaded, 0 rules failed
+21/2/2023 -- 04:46:34 - <Info> - Threshold config parsed: 0 rule(s) found
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tcp-packet
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for tcp-stream
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for udp-packet
+21/2/2023 -- 04:46:34 - <Perf> - using shared mpm ctx' for other-ip
+21/2/2023 -- 04:46:34 - <Info> - 95 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 95 inspect application layer, 0 are decoder event only
+21/2/2023 -- 04:46:34 - <Config> - building signature grouping structure, stage 1: preprocessing rules... complete
+21/2/2023 -- 04:46:34 - <Perf> - TCP toserver: 1 port groups, 1 unique SGH's, 0 copies
+21/2/2023 -- 04:46:34 - <Perf> - TCP toclient: 1 port groups, 1 unique SGH's, 0 copies
+21/2/2023 -- 04:46:34 - <Perf> - UDP toserver: 1 port groups, 1 unique SGH's, 0 copies
+21/2/2023 -- 04:46:34 - <Perf> - UDP toclient: 1 port groups, 1 unique SGH's, 0 copies
+21/2/2023 -- 04:46:34 - <Perf> - OTHER toserver: 0 proto groups, 0 unique SGH's, 0 copies
+21/2/2023 -- 04:46:34 - <Perf> - OTHER toclient: 0 proto groups, 0 unique SGH's, 0 copies
+21/2/2023 -- 04:46:34 - <Perf> - Unique rule groups: 4
+21/2/2023 -- 04:46:34 - <Perf> - Builtin MPM "toserver TCP packet": 0
+21/2/2023 -- 04:46:34 - <Perf> - Builtin MPM "toclient TCP packet": 0
+21/2/2023 -- 04:46:34 - <Perf> - Builtin MPM "toserver TCP stream": 0
+21/2/2023 -- 04:46:34 - <Perf> - Builtin MPM "toclient TCP stream": 0
+21/2/2023 -- 04:46:34 - <Perf> - Builtin MPM "toserver UDP packet": 0
+21/2/2023 -- 04:46:34 - <Perf> - Builtin MPM "toclient UDP packet": 0
+21/2/2023 -- 04:46:34 - <Perf> - Builtin MPM "other IP packet": 0
+21/2/2023 -- 04:46:34 - <Config> - Using flow cluster mode for AF_PACKET (iface wlp0s20f3)
+21/2/2023 -- 04:46:34 - <Config> - Using defrag kernel functionality for AF_PACKET (iface wlp0s20f3)
+21/2/2023 -- 04:46:34 - <Perf> - 8 cores, so using 8 threads
+21/2/2023 -- 04:46:34 - <Perf> - Using 8 AF_PACKET threads for interface wlp0s20f3
+21/2/2023 -- 04:46:34 - <Config> - wlp0s20f3: enabling zero copy mode by using data release call
+21/2/2023 -- 04:46:34 - <Info> - Going to use 8 thread(s)
+21/2/2023 -- 04:46:34 - <Config> - using 1 flow manager threads
+21/2/2023 -- 04:46:34 - <Config> - using 1 flow recycler threads
+21/2/2023 -- 04:46:34 - <Info> - Running in live mode, activating unix socket
+21/2/2023 -- 04:46:34 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+21/2/2023 -- 04:46:34 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=13 frame_size=1600 frame_nr=260
+21/2/2023 -- 04:46:34 - <Info> - All AFP capture threads are running.
+[14 - Suricata-Main] 2024-02-07 04:16:23 Notice: suricata: This is Suricata version 7.0.2 RELEASE running in SYSTEM mode
+[14 - Suricata-Main] 2024-02-07 04:16:23 Info: cpu: CPUs/cores online: 4
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: device: Adding interface enp0s3 from config file
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: luajit: luajit states preallocated: 128
+[14 - Suricata-Main] 2024-02-07 04:16:23 Info: suricata: Setting engine mode to IDS mode by default
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: exception-policy: exception-policy: ignore (defined via 'built-in default' for IDS-mode)
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: exception-policy: app-layer.error-policy: ignore (defined via 'built-in default' for IDS-mode)
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: app-layer-htp: 'default' server has 'request-body-minimal-inspect-size' set to 32774 and 'request-body-inspect-window' set to 4227 after randomization.
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: app-layer-htp: 'default' server has 'response-body-minimal-inspect-size' set to 39457 and 'response-body-inspect-window' set to 16506 after randomization.
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: smb: read: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: smb: write: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: app-layer-enip: Protocol detection and parser disabled for enip protocol.
+[14 - Suricata-Main] 2024-02-07 04:16:23 Config: app-layer-dnp3: Protocol detection and parser disabled for DNP3.
+[14 - Suricata-Main] 2024-02-07 04:16:23 Info: ioctl: enp0s3: MTU 1500
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: host: allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: host: preallocated 1000 hosts of size 136
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: host: host memory usage: 398144 bytes, maximum: 33554432
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: coredump-config: Core dump size is unlimited.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: exception-policy: defrag.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: defrag-hash: allocated 3670016 bytes of memory for the defrag hash... 65536 buckets of size 56
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: defrag-hash: preallocated 65535 defrag trackers of size 160
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: defrag-hash: defrag memory usage: 14155616 bytes, maximum: 33554432
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: exception-policy: flow.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: flow: flow size 296, memcap allows for 453438 flows. Per hash row in perfect conditions 6
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "prealloc-sessions": 2048 (per thread)
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "memcap": 67108864
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "midstream" session pickups: disabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "async-oneside": disabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "checksum-validation": enabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: exception-policy: stream.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: exception-policy: stream.reassembly.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: exception-policy: stream.midstream-policy: ignore (defined via 'built-in default' for IDS-mode)
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream."inline": disabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "bypass": disabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "max-syn-queued": 10
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream "max-synack-queued": 5
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream.reassembly "memcap": 268435456
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream.reassembly "depth": 1048576
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream.reassembly "toserver-chunk-size": 2557
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream.reassembly "toclient-chunk-size": 2662
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream.reassembly.raw: enabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp: stream.liberal-timestamps: disabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp-reassemble: stream.reassembly "segment-prealloc": 2048
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: stream-tcp-reassemble: stream.reassembly "max-regions": 8
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: conf: Running in live mode, activating unix socket
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: logopenfile: fast output device (regular) initialized: fast.log
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: runmodes: enabling 'eve-log' module 'alert'
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: runmodes: enabling 'eve-log' module 'http'
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: runmodes: enabling 'eve-log' module 'dns'
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: runmodes: enabling 'eve-log' module 'tls'
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: runmodes: enabling 'eve-log' module 'files'
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: file: forcing md5 calculation for logged or stored files
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: file: forcing sha256 calculation for logged or stored files
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: runmodes: enabling 'eve-log' module 'ssh'
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: runmodes: enabling 'eve-log' module 'flow'
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: logopenfile: stats output device (regular) initialized: stats.log
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: landlock: Landlock is not enabled in configuration
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: suricata: Delayed detect disabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: pattern matchers: MPM: hs, SPM: hs
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: grouping: tcp-whitelist (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: grouping: udp-whitelist (default) 53, 135, 5060
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: prefilter engines: MPM
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: reputation: IP reputation disabled
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/botcc.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from botcc.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from ciarmy.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/compromised.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from compromised.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/drop.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from drop.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/dshield.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from dshield.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-attack_response.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-chat.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-current_events.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-dns.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-dos.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-exploit.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-ftp.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-imap.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-malware.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-misc.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-mobile_malware.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-netbios.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-p2p.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-policy.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-pop3.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-rpc.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-scan.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-smtp.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-snmp.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-sql.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-telnet.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-tftp.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-trojan.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-trojan.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-user_agents.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-voip.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-web_client.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-web_server.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from emerging-worm.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/tor.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from tor.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/http-events.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from http-events.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/smtp-events.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from smtp-events.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/dns-events.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from dns-events.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: No rule files match the pattern /etc/suricata/rules/tls-events.rules
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: No rules loaded from tls-events.rules.
+[44 - Suricata-Main] 2024-02-07 04:16:23 Warning: detect: 38 rule files specified, but no rules were loaded!
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: detect: building signature grouping structure, stage 1: preprocessing rules... complete
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: TCP toserver: 0 port groups, 0 unique SGH's, 0 copies
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: TCP toclient: 0 port groups, 0 unique SGH's, 0 copies
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: UDP toserver: 0 port groups, 0 unique SGH's, 0 copies
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: UDP toclient: 0 port groups, 0 unique SGH's, 0 copies
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: OTHER toserver: 0 proto groups, 0 unique SGH's, 0 copies
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: OTHER toclient: 0 proto groups, 0 unique SGH's, 0 copies
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Unique rule groups: 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Builtin MPM "toserver TCP packet": 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Builtin MPM "toclient TCP packet": 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Builtin MPM "toserver TCP stream": 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Builtin MPM "toclient TCP stream": 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Builtin MPM "toserver UDP packet": 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Builtin MPM "toclient UDP packet": 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: detect: Builtin MPM "other IP packet": 0
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: af-packet: enp0s3: using flow cluster mode for AF_PACKET
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: af-packet: enp0s3: using defrag kernel functionality for AF_PACKET
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: af-packet: enp0s3: cluster_flow: 4 cores, using 4 threads
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: ioctl: enp0s3: disabling gro offloading
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: ioctl: enp0s3: disabling tso offloading
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: ioctl: enp0s3: disabling gso offloading
+[44 - Suricata-Main] 2024-02-07 04:16:23 Perf: ioctl: enp0s3: disabling sg offloading
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: runmodes: enp0s3: creating 4 threads
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: flow-manager: using 1 flow manager threads
+[44 - Suricata-Main] 2024-02-07 04:16:23 Config: flow-manager: using 1 flow recycler threads
+[44 - Suricata-Main] 2024-02-07 04:16:23 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[45 - W#01-enp0s3] 2024-02-07 04:16:23 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[46 - W#02-enp0s3] 2024-02-07 04:16:23 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[47 - W#03-enp0s3] 2024-02-07 04:16:23 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[48 - W#04-enp0s3] 2024-02-07 04:16:23 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[44 - Suricata-Main] 2024-02-07 04:16:23 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[15 - Suricata-Main] 2024-02-07 05:03:12 Notice: suricata: This is Suricata version 7.0.2 RELEASE running in SYSTEM mode
+[15 - Suricata-Main] 2024-02-07 05:03:12 Info: cpu: CPUs/cores online: 4
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: device: Adding interface enp0s3 from config file
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: luajit: luajit states preallocated: 128
+[15 - Suricata-Main] 2024-02-07 05:03:12 Info: suricata: Setting engine mode to IDS mode by default
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: exception-policy: exception-policy: ignore (defined via 'built-in default' for IDS-mode)
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: exception-policy: app-layer.error-policy: ignore (defined via 'built-in default' for IDS-mode)
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: app-layer-htp: 'default' server has 'request-body-minimal-inspect-size' set to 34255 and 'request-body-inspect-window' set to 4127 after randomization.
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: app-layer-htp: 'default' server has 'response-body-minimal-inspect-size' set to 40452 and 'response-body-inspect-window' set to 17151 after randomization.
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: smb: read: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: smb: write: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: app-layer-enip: Protocol detection and parser disabled for enip protocol.
+[15 - Suricata-Main] 2024-02-07 05:03:12 Config: app-layer-dnp3: Protocol detection and parser disabled for DNP3.
+[15 - Suricata-Main] 2024-02-07 05:03:12 Info: ioctl: enp0s3: MTU 1500
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: host: allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: host: preallocated 1000 hosts of size 136
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: host: host memory usage: 398144 bytes, maximum: 33554432
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: coredump-config: Core dump size is unlimited.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: exception-policy: defrag.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: defrag-hash: allocated 3670016 bytes of memory for the defrag hash... 65536 buckets of size 56
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: defrag-hash: preallocated 65535 defrag trackers of size 160
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: defrag-hash: defrag memory usage: 14155616 bytes, maximum: 33554432
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: exception-policy: flow.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: flow: flow size 296, memcap allows for 453438 flows. Per hash row in perfect conditions 6
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "prealloc-sessions": 2048 (per thread)
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "memcap": 67108864
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "midstream" session pickups: disabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "async-oneside": disabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "checksum-validation": enabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: exception-policy: stream.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: exception-policy: stream.reassembly.memcap-policy: ignore (defined via 'built-in default' for IDS-mode)
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: exception-policy: stream.midstream-policy: ignore (defined via 'built-in default' for IDS-mode)
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream."inline": disabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "bypass": disabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "max-syn-queued": 10
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream "max-synack-queued": 5
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream.reassembly "memcap": 268435456
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream.reassembly "depth": 1048576
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream.reassembly "toserver-chunk-size": 2654
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream.reassembly "toclient-chunk-size": 2660
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream.reassembly.raw: enabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp: stream.liberal-timestamps: disabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp-reassemble: stream.reassembly "segment-prealloc": 2048
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: stream-tcp-reassemble: stream.reassembly "max-regions": 8
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: conf: Running in live mode, activating unix socket
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: logopenfile: fast output device (regular) initialized: fast.log
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: runmodes: enabling 'eve-log' module 'alert'
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: runmodes: enabling 'eve-log' module 'http'
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: runmodes: enabling 'eve-log' module 'dns'
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: runmodes: enabling 'eve-log' module 'tls'
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: runmodes: enabling 'eve-log' module 'files'
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: file: forcing md5 calculation for logged or stored files
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: file: forcing sha256 calculation for logged or stored files
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: runmodes: enabling 'eve-log' module 'ssh'
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: runmodes: enabling 'eve-log' module 'flow'
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: logopenfile: stats output device (regular) initialized: stats.log
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: landlock: Landlock is not enabled in configuration
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: suricata: Delayed detect disabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: pattern matchers: MPM: hs, SPM: hs
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: grouping: tcp-whitelist (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: grouping: udp-whitelist (default) 53, 135, 5060
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: prefilter engines: MPM
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: reputation: IP reputation disabled
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/botcc.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from botcc.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from ciarmy.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/compromised.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from compromised.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/drop.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from drop.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/dshield.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from dshield.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-attack_response.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-chat.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-current_events.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-dns.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-dos.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-exploit.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-ftp.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-imap.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-malware.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-misc.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-mobile_malware.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-netbios.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-p2p.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-policy.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-pop3.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-rpc.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-scan.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-smtp.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-snmp.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-sql.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-telnet.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-tftp.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-trojan.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-trojan.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-user_agents.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-voip.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-web_client.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-web_server.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from emerging-worm.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/tor.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from tor.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/http-events.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from http-events.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/smtp-events.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from smtp-events.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/dns-events.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from dns-events.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: No rule files match the pattern /etc/suricata/rules/tls-events.rules
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: No rules loaded from tls-events.rules.
+[30 - Suricata-Main] 2024-02-07 05:03:12 Warning: detect: 38 rule files specified, but no rules were loaded!
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: detect: building signature grouping structure, stage 1: preprocessing rules... complete
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: TCP toserver: 0 port groups, 0 unique SGH's, 0 copies
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: TCP toclient: 0 port groups, 0 unique SGH's, 0 copies
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: UDP toserver: 0 port groups, 0 unique SGH's, 0 copies
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: UDP toclient: 0 port groups, 0 unique SGH's, 0 copies
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: OTHER toserver: 0 proto groups, 0 unique SGH's, 0 copies
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: OTHER toclient: 0 proto groups, 0 unique SGH's, 0 copies
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Unique rule groups: 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Builtin MPM "toserver TCP packet": 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Builtin MPM "toclient TCP packet": 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Builtin MPM "toserver TCP stream": 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Builtin MPM "toclient TCP stream": 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Builtin MPM "toserver UDP packet": 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Builtin MPM "toclient UDP packet": 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: detect: Builtin MPM "other IP packet": 0
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: af-packet: enp0s3: using flow cluster mode for AF_PACKET
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: af-packet: enp0s3: using defrag kernel functionality for AF_PACKET
+[30 - Suricata-Main] 2024-02-07 05:03:12 Perf: af-packet: enp0s3: cluster_flow: 4 cores, using 4 threads
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: runmodes: enp0s3: creating 4 threads
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: flow-manager: using 1 flow manager threads
+[30 - Suricata-Main] 2024-02-07 05:03:12 Config: flow-manager: using 1 flow recycler threads
+[30 - Suricata-Main] 2024-02-07 05:03:12 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[43 - W#01-enp0s3] 2024-02-07 05:03:12 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[44 - W#02-enp0s3] 2024-02-07 05:03:12 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[45 - W#03-enp0s3] 2024-02-07 05:03:12 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[46 - W#04-enp0s3] 2024-02-07 05:03:12 Perf: af-packet: enp0s3: rx ring: block_size=32768 block_nr=26 frame_size=1600 frame_nr=520
+[30 - Suricata-Main] 2024-02-07 05:03:13 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.

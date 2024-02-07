@@ -1,0 +1,14 @@
+[15] Notice: suricata: This is Suricata version 7.0.2 RELEASE running in SYSTEM mode
+[15] Info: cpu: CPUs/cores online: 4
+[15] Config: device: Adding interface enp0s3 from config file
+[15] Config: luajit: luajit states preallocated: 128
+[15] Info: suricata: Setting engine mode to IDS mode by default
+[15] Config: exception-policy: exception-policy: ignore (defined via 'built-in default' for IDS-mode)
+[15] Config: exception-policy: app-layer.error-policy: ignore (defined via 'built-in default' for IDS-mode)
+[15] Config: app-layer-htp: 'default' server has 'request-body-minimal-inspect-size' set to 34255 and 'request-body-inspect-window' set to 4127 after randomization.
+[15] Config: app-layer-htp: 'default' server has 'response-body-minimal-inspect-size' set to 40452 and 'response-body-inspect-window' set to 17151 after randomization.
+[15] Config: smb: read: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[15] Config: smb: write: max record size: 16777216, max queued chunks 64, max queued size 67108864
+[15] Config: app-layer-enip: Protocol detection and parser disabled for enip protocol.
+[15] Config: app-layer-dnp3: Protocol detection and parser disabled for DNP3.
+[15] Info: ioctl: enp0s3: MTU 1500
